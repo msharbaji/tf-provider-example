@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
+	"google.golang.org/protobuf/types/known/timestamppb"
 
 	"github.com/msharbaji/grpc-go-example/api/pb"
 	"github.com/msharbaji/grpc-go-example/pkg/client"
@@ -136,7 +136,7 @@ func NewUserDataSource() datasource.DataSource {
 	return &UserDataSource{}
 }
 
-func timestampToString(timestamp *timestamp.Timestamp) types.String {
+func timestampToString(timestamp *timestamppb.Timestamp) types.String {
 	if timestamp == nil {
 		return types.StringNull()
 	}

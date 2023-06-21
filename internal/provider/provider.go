@@ -88,7 +88,6 @@ func (e *ExampleProvider) DataSources(_ context.Context) []func() datasource.Dat
 }
 
 func (e *ExampleProvider) Resources(_ context.Context) []func() resource.Resource {
-	// TODO implement me
 	return []func() resource.Resource{
 		NewUserResource,
 	}

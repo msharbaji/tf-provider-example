@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
+	"google.golang.org/protobuf/types/known/timestamppb"
 
 	"github.com/msharbaji/grpc-go-example/api/pb"
 	"github.com/msharbaji/grpc-go-example/pkg/client"
@@ -153,7 +153,7 @@ func (u *UserResource) Update(ctx context.Context, request resource.UpdateReques
 		Id:        data.ID.ValueString(),
 		Username:  data.Username.ValueString(),
 		Email:     data.Email.ValueString(),
-		UpdatedAt: &timestamp.Timestamp{Seconds: time.Now().Unix()},
+		UpdatedAt: &timestamppb.Timestamp{Seconds: time.Now().Unix()},
 	}
 
 	// Update user

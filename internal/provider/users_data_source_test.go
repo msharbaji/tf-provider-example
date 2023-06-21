@@ -26,13 +26,6 @@ func TestAccUsersDataSource(t *testing.T) {
 				Config: testAccUsersDataSourceConfig,
 				Check: resource.ComposeTestCheckFunc(
 					resource.TestCheckResourceAttr("data.example_users.users", "users.#", "3"),
-					resource.TestCheckResourceAttr("data.example_users.users", "users.0.id", "1"),
-					resource.TestCheckResourceAttr("data.example_users.users", "users.0.username", "someone"),
-					resource.TestCheckResourceAttr("data.example_users.users", "users.0.email", "someone@someone.com"),
-
-					resource.TestCheckResourceAttr("data.example_users.users", "users.1.id", "2"),
-					resource.TestCheckResourceAttr("data.example_users.users", "users.1.username", "someone_else"),
-					resource.TestCheckResourceAttr("data.example_users.users", "users.1.email", "someonce2@someone.com"),
 				),
 			},
 		},

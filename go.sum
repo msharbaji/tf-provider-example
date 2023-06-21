@@ -141,8 +141,8 @@ github.com/mitchellh/mapstructure v1.5.0/go.mod h1:bFUtVrKA4DC2yAKiSyO/QUcy7e+RR
 github.com/mitchellh/reflectwalk v1.0.0/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx0jmZXqmk4esnw=
 github.com/mitchellh/reflectwalk v1.0.2 h1:G2LzWKi524PWgd3mLHV8Y5k7s6XUvT0Gef6zxSIeXaQ=
 github.com/mitchellh/reflectwalk v1.0.2/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx0jmZXqmk4esnw=
-github.com/msharbaji/grpc-go-example v0.0.0-20230616203436-9b8549e5b8bf h1:ObCq1p97E5NItP3kITXbDFJM3W4JtgcKYz4i6py3Yyg=
-github.com/msharbaji/grpc-go-example v0.0.0-20230616203436-9b8549e5b8bf/go.mod h1:WOUi2hAE/JA3dJvEs8CLrLh1e5GNXW0HGuTptwfkGBc=
+github.com/msharbaji/grpc-go-example v0.0.0-20230621135529-a604558bfd71 h1:xe3aAiYooh/OzF0J/zW64Ez210jlB1DVWCrdYw6Yz3I=
+github.com/msharbaji/grpc-go-example v0.0.0-20230621135529-a604558bfd71/go.mod h1:YAsvabKqSUc2LFKDrRuaRpu8kwFRrrvMy0xGnotPNHE=
 github.com/oklog/run v1.1.0 h1:GEenZ1cK0+q0+wsJew9qUg/DyD8k3JzYsZAi5gYi2mA=
 github.com/oklog/run v1.1.0/go.mod h1:sVPdnTZT1zYwAJeCMu2Th4T21pA3FPOQRfWjQlk7DVU=
 github.com/pjbgf/sha1cd v0.3.0 h1:4D5XXmUUBUl/xQ6IjCkEAbqXskkq/4O7LmGn0AqMDs4=

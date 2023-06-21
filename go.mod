@@ -3,14 +3,14 @@ module github.com/msharbaji/tf-provider-example
 go 1.20
 
 require (
-	github.com/golang/protobuf v1.5.3
 	github.com/hashicorp/terraform-plugin-docs v0.14.1
 	github.com/hashicorp/terraform-plugin-framework v1.3.1
 	github.com/hashicorp/terraform-plugin-go v0.16.0
 	github.com/hashicorp/terraform-plugin-log v0.9.0
 	github.com/hashicorp/terraform-plugin-testing v1.3.0
-	github.com/msharbaji/grpc-go-example v0.0.0-20230616203436-9b8549e5b8bf
+	github.com/msharbaji/grpc-go-example v0.0.0-20230621135529-a604558bfd71
 	github.com/rs/zerolog v1.29.1
+	google.golang.org/protobuf v1.30.0
 )
 
 require (
@@ -24,6 +24,7 @@ require (
 	github.com/bgentry/speakeasy v0.1.0 // indirect
 	github.com/cloudflare/circl v1.3.3 // indirect
 	github.com/fatih/color v1.15.0 // indirect
+	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
@@ -71,5 +72,4 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230530153820-e85fd2cbaebc // indirect
 	google.golang.org/grpc v1.56.0 // indirect
-	google.golang.org/protobuf v1.30.0 // indirect
 )
